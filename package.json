@@ -1,0 +1,19 @@
+{
+  "name": "basic_nodejs_crud",
+  "version": "1.0.0",
+  "description": "Just playing with nodejs and database libraries",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan José González Ramírez",
+  "license": "ISC",
+  "dependencies": {
+    "pg-promise": "^10.12.1",
+    "read-yaml-file": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
